@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to KMQ Reborn!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* Very dark grey */
+            color: #f4f4f9; /* Light grey for text to contrast */
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #282c34;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 1.1em;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #1e1e1e; /* Slightly lighter dark grey for contrast */
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .news, .release, .wof, .suggestions {
+            margin-top: 30px;
+            padding: 15px;
+            background: #2b2b2b; /* Mid-grey for section backgrounds */
+            border-left: 4px solid #007BFF;
+        }
+        .news h2, .release h2, .wof h2, .suggestions h2 {
+            margin-top: 0;
+        }
+        .release img {
+            display: block;
+            width: 375px; /* Half the original width */
+            height: 356.5px; /* Half the original height */
+            margin: 20px auto;
+            border: 2px solid #555;
+        }
+        .dropdown {
+            margin-top: 20px;
+        }
+        .dropdown-title {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .dropdown-title span {
+            transition: transform 0.3s ease;
+        }
+        .dropdown-title.active span {
+            transform: rotate(180deg);
+        }
+        .dropdown-content {
+            display: none;
+            margin-top: 10px;
+            background: #1e1e1e;
+            border: 1px solid #555;
+            padding: 10px;
+            border-radius: 5px;
+            max-height: 200px;
+            overflow-y: auto; /* Adds scroll bar for long lists */
+        }
+        .dropdown-content p {
+            margin: 5px 0;
+        }
+        .dropdown-content .warning {
+            color: #ff6f61; /* Highlight warning text in red */
+            margin-bottom: 15px;
+        }
+        iframe {
+            width: calc(100% - 30px); /* Leaves 15px margin on each side */
+            height: 700px; /* Increases height for a fuller appearance */
+            border: none;
+            margin: 15px auto;
+            display: block;
+            background-color: #121212; /* Matches page aesthetics */
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to KMQ Reborn!</h1>
+    <p>Quality Games, Quality Fun.</p>
+</header>
+
+<nav>
+    <a href="#fun-apps">Fun Apps</a>
+    <a href="#tools">Tools</a>
+    <a href="#yt">YT</a>
+    <a href="#proxy-browsers">Pr0xy Browsers</a>
+    <a href="#how-we-work">How We Work</a>
+    <a href="#contact-us">Contact Us</a>
+</nav>
+
+<main>
+    <section class="news">
+        <h2>News</h2>
+        <p>Major Updates are underway and will be released shortly.</p>
+    </section>
+
+    <section class="release">
+        <h2>Out Now: Siberian Assault</h2>
+        <p>
+            Siberian Assault is an intense first-person shooter set deep in the unforgiving Siberian wilderness, where players are dropped into a hostile winter jungle brimming with enemy forces. 
+            As an elite operative, your mission is to survive relentless waves of enemies in this icy, snow-laden environment.
+        </p>
+        <img src="https://lh3.googleusercontent.com/FDAgNN6MEp4ImNClYo5gUktyAjeyX_hXA_8BBattKzA4f8jJGZVIa5c2crm6Owum4YcvY61LaBjTiOdRekJSM1hBg06WKtCAPwnZts9vXEwWLFJTmyorbJx65rtW116toA=w1280" 
+             alt="Siberian Assault">
+    </section>
+
+    <section class="wof">
+        <h2>Wall Of Fame</h2>
+        <div class="dropdown">
+            <button class="dropdown-title" onclick="toggleDropdown(this)">
+                View Wall Of Fame <span>▼</span>
+            </button>
+            <div class="dropdown-content">
+                <p class="warning">
+                    Want Your Name On The WOF? Fill out the survey below! <br>
+                    (PLEASE BE AWARE THAT YOU ACCEPT THE RISK OF BEING CAUGHT USING KMQ BY YOUR SCHOOL IF YOU ADD YOUR NAME TO THE WOF)
+                </p>
+                <p>Adonissss</p>
+                <p>Ayden Cross</p>
+                <p>Clive Simmons</p>
+                <p>Harry Stanish</p>
+                <p>Oliver Lawson</p>
+                <p>Sarah Gooding</p>
+                <p>Uberguidoz</p>
+                <p>Zack Tyler</p>
+                <p>Kevin Mitnick</p>
+                <p>Jacob Helmold</p>
+                <p>lak3rsk1d</p>
+                <p>Kaacar</p>
+                <p>Alex O</p>
+                <p>Destiney Hudson</p>
+                <p>Femke Koning</p>
+                <p>Otha Glover</p>
+                <p>Carlsaeds</p>
+                <p>Tony Nino</p>
+                <p>Ryder McDonalds</p>
+                <p>Cade Chastain</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="suggestions">
+        <h2>Any Suggestions?</h2>
+        <p>The developers here at KMQ value the user's opinion! Therefore, if you have any suggestions at all, please fill out the form below, and we will try our hardest to add that to our library! We will also add your name to the wall of fame!</p>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfT2FPFDGx9C-RYBLrN9BmIH-qQRt8pTA2wkOxTNOQtJQKuUw/viewform?usp=sf_link"></iframe>
+    </section>
+</main>
+
+<script>
+    function toggleDropdown(button) {
+        const content = button.nextElementSibling;
+        const arrow = button.querySelector("span");
+
+        if (content.style.display === "block") {
+            content.style.display = "none";
+            button.classList.remove("active");
+        } else {
+            content.style.display = "block";
+            button.classList.add("active");
+        }
+    }
+</script>
+
+</body>
+</html>
